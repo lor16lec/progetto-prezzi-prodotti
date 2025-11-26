@@ -71,6 +71,7 @@ namespace grafico
                 domanda.Points.AddXY(q, d);
                 offerta.Points.AddXY(q, o);
 
+
                 // Aggiunta alla tabella
                 dataGridView1.Rows.Add(q, d.ToString("0.00"), o.ToString("0.00"));
             }
